@@ -17,7 +17,7 @@ All code was written in Python and the training and testing of the model was imp
 
 - The Jupyter notebook "main_inference_heatmaps.ipynb" shows how we can make MSI predictions at both slide-level and tile-level. It also contains two examples that were used to generate the Figure 4. With this notebook, readers can understand how our model works on whole slide images and check the reproducibility of our model.
 
-- **Please download two directories**, "model_weights" and "sample_wsi_features", from Google Drive https://drive.google.com/drive/folders/1fI9tUw2A-e5Ph4hrju5jm0z-EfdLGApp?usp=sharing and **place them in the same directory as** main_inference_heatmaps.ipynb. "model_weights" contains the MSI-SEER model weights trained on the colorectal cancer and gastric cancer datasets, respectively. "sample_wsi_features" contains two example slides that were used to generate the heatmaps in the Figure 4.
+- **Please download two directories**, "model_weights" and "sample_wsi_features", from Google Drive https://drive.google.com/drive/folders/1fI9tUw2A-e5Ph4hrju5jm0z-EfdLGApp?usp=sharing and **place them in the same directory as** main_inference_heatmaps.ipynb. Both directories are currently compressed. Please decompress them using any file decompression software. "model_weights" contains the MSI-SEER model weights trained on the colorectal cancer and gastric cancer datasets, respectively. "sample_wsi_features" contains two example slides that were used to generate the heatmaps in the Figure 4.
 
 - The codes used to train and test the baselines in the manuscript, the three CNN models (ResNet, EfficientNet, ShuffleNet), are provided in the "baselines" directory.    
 
